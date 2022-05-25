@@ -54,7 +54,7 @@ function BtsTable() {
                 obj.text = getName(keys[i]);
                 obj.sort = true;
                 obj.filter = textFilter({
-                    placeholder: 'Фильтр по '+obj.text,
+                    placeholder: 'Фільтр по '+obj.text,
                 });
                 if (['product','code'].indexOf(keys[i]) !== -1) {
                     obj.editable = false;

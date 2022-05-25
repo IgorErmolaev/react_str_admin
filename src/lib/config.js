@@ -1,5 +1,5 @@
 export const baseNameUrl = '/strAdmin';
-export const baseUrl = window.location.origin+baseNameUrl;    //'http://limits-ab.test.it.loc/strAdmin'; //'http://limits-ab.test.it.loc/strAdmin';    'https://limits.a-bank.com.ua/strAdmin/';   'http://localhost/strAdmin';
+export const baseUrl = window.location.origin+baseNameUrl;  //window.location.origin+baseNameUrl;    'http://limits-ab.test.it.loc' + baseNameUrl;
 export const allowRolesHome = ['qq'];
 export const allProducts = ['UNIPACKSAS',
     'PAWN',
@@ -7,7 +7,8 @@ export const allProducts = ['UNIPACKSAS',
     'RASSR',
     'L2F',
     'EXPLOAN',
-    'PCHAVAIL'
+    'PCHAVAIL',
+    'PCH'
 ];
 export const CONV_URL_API2 = "https://cp.a-bank.com.ua/api/2/json/";
 export const CONV_REF_REJCODES = 'REJ_CODES';
